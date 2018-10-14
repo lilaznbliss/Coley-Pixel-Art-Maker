@@ -1,0 +1,140 @@
+body {
+    text-align: center;
+    background: url(https://image.ibb.co/e7ziiS/resizededitedcubismbg.png) ;   
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: none;
+
+    background-size:auto;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #66004d;
+    text-shadow: 2px 2px #ff84c1;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #B75F8B;
+
+}
+
+#main {
+  margin-left: 250px;
+}
+
+.pixelHeadingImage {
+  position: center;
+  top: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF84C1;
+    position: fixed;
+    top: 55px;
+    width:inherit;
+    opacity: 0.7;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #934c70;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+    background-color: white;
+    opacity: 0.8;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#menu{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #B75F8B;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
